@@ -32,6 +32,7 @@ nav {
 .hero-content {
     width: 80%;
     margin: auto;
+    color: white;
 }
 
 .bio {
@@ -47,3 +48,17 @@ nav {
 .text-bold {
     font-weight: bold;
 }
+
+.hero-content h3 {
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 10s steps(34) infinite alternate;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+
