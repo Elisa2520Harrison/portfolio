@@ -11,3 +11,21 @@ document.addEventListener('scroll', function () {
         navElement.style.backgroundColor = 'transparent';
     }
 });
+
+// objects and arrays
+const product1 = {
+  name:'Digestive',
+  price: 45.56,
+  available: true
+}
+
+const product2 ={
+  name:'Cookies',
+  price:56,
+  available: false,
+}
+
+const products =[product1, product2]
+
+
+console.table(products);
